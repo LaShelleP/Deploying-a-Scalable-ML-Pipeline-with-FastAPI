@@ -31,4 +31,3 @@ r = requests.post("http://127.0.0.1:8000/data/", json=data)
 # Print the status code and the result
 print(f"Status Code: {r.status_code}")
 print(f"Result: {r.json()['result']}")
-
